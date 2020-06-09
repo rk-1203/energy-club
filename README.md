@@ -2,7 +2,7 @@
 <p align="center">A starter website for energy club of our college.</p>
 <p align="center"><a align="center" href="https://energy-club.netlify.app/">energy-club.netlify.app</a></p>
 <p align="center">
-    <img src="/images/energy-club.png" alt="Phedito" />
+    <img src="/images/energy-club.png" alt="Energy Club" />
 </p>
 
 # Developers
