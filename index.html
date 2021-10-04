@@ -1,150 +1,457 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="images\logo_ec.png" >
-		<link rel="stylesheet" href="css\style.css">
-		<title>Energy Club</title>
-		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-			})(window,document,'script','dataLayer','GTM-5NFWTHZ');</script>
-		<!-- End Google Tag Manager -->
-	</head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images\logo_ec.png" />
+    <link rel="stylesheet" href="css\style.css" />
+    <title>Energy Club</title>
+    <script async src="js/gtag.js"></script>
+  </head>
+  <body
+    width="70%"
+    style="
+      background-image: url(images/bg0.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+    "
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5NFWTHZ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header id="main">
+      <!--Header(logo+title)-->
+      <img
+        src="images\bg1.jpg"
+        style="
+          position: absolute;
+          z-index: -1;
+          width: 1024px;
+          height: 150px;
+          margin-top: -20px;
+          text-align: center;
+          float: left;
+        "
+      />
+      <img
+        src="images\logo_ec.png"
+        width="100"
+        height="100"
+        style="float: left; margin: 0px 56px; position: absolute; z-index: 9"
+      />
+      <h1 style="margin-top: 20px; padding-top: 10px; margin-left: 200px">
+        ENERGY CLUB
+      </h1>
+      <h3 style="margin-top: -20px; margin-left: 200px">
+        Malaviya National Institute of Technology, Jaipur
+      </h3>
+    </header>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#s1">Activities</a>
+        <ul class="submenu">
+          <li><a href="links\seeq.html">SEEQ</a></li>
+          <li><a href="links\greenovation.html">GREENOVATION</a></li>
+          <li>
+            <a href="http://mnit.ac.in/dept_cree/newsletter.php"
+              >NEWSLETTER</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="active">
+        <a href="#s2">Achievements</a>
+        <ul class="submenu">
+          <li><a href="links\reca.html">RECA</a></li>
+          <li><a href="links\india_power.html">INDIA POWER</a></li>
+        </ul>
+      </li>
+      <li><a href="links\our_team.html">Our Team</a></li>
+      <li><a href="links\about.html">About Us</a></li>
+    </ul>
+    <div
+      style="
+        margin-top: -16px;
+        background-image: url(images/bg4.jpg);
+        height: 349px;
+      "
+    >
+      <div class="container">
+        <!--SlideShow of photo gallary-->
+        <a href="#" class="arrowL"
+          ><img
+            src="images\l_arrow0.png"
+            onmouseover="this.src='images/l_arrow1.png'"
+            onmouseout="this.src='images/l_arrow0.png'"
+        /></a>
+        <div id="slideshow">
+          <div><img src="gallary\1.jpg" /></div>
+          <div class="hidden"><img src="gallary\2.jpg" /></div>
+          <div class="hidden"><img src="gallary\3.jpg" /></div>
+          <div class="hidden"><img src="gallary\4.jpg" /></div>
+          <div class="hidden"><img src="gallary\5.jpg" /></div>
+        </div>
+        <a href="#" class="arrowR"
+          ><img
+            src="images\r_arrow0.png"
+            onmouseover="this.src='images/r_arrow1.png'"
+            onmouseout="this.src='images/r_arrow0.png'"
+        /></a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js\slideshow.js"></script>
 
-	<body width=70% style="background-image:url(images/bg0.jpg);background-repeat:no-repeat;background-size: 100%;background-attachment:fixed;">
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NFWTHZ"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
-		<header id="main">                                                                                              <!--Header(logo+title)-->
-			<img src="images\bg1.jpg" style="position:absolute;z-index:-1;width:1024px;height:150px;margin-top:-20px;text-align:center;float:left;">
-			<img src="images\logo_ec.png" width='100' height='100' style="float:left;margin:0px 56px;position:absolute;z-index:9">
-			<h1 style="margin-top:20px;padding-top:10px;margin-left:200px;">ENERGY CLUB</h1>
-			<h3 style="margin-top:-20px;margin-left:200px">Malaviya National Institute of Technology, Jaipur</h3>
-		</header>
-		<center>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#s1">Activities</a>
-                    <ul class="submenu">
-                        <li><a href="links\seeq.html">SEEQ</a></li>
-                        <li><a href="links\greenovation.html">GREENOVATION</a></li>
-                        <li><a href="http://mnit.ac.in/dept_cree/newsletter.php">NEWSLETTER</a></li>
-                    </ul>
-                </li>
-				<li><a href="">Gallary</a></li>
-                <li class="active"><a href="#s2">Achievements</a>
-                    <ul class="submenu">
-                        <li><a href="links\reca.html">RECA</a></li>
-                        <li><a href="links\india_power.html">INDIA POWER</a></li>
-                    </ul>
-                </li>
-				<li><a href="links\our_team.html">Our Team</a></li>
-                <li><a href="links\about.html">About Us</a></li>
-            </ul>
-		</center>
-		<div style="margin-top:-16px;background-image:url(images/bg4.jpg);height:349px;">
-			<div class=container >                                                                                     <!--SlideShow of photo gallary-->
-				<a href="#" class="arrowL"><img  src="images\l_arrow0.png" onmouseover="this.src='images/l_arrow1.png'" onmouseout="this.src='images/l_arrow0.png'"></a>
-				<div id="slideshow">
-					<div><img src="gallary\1.jpg"></div>
-					<div class="hidden"><img src="gallary\2.jpg"></div>
-					<div class="hidden"><img src="gallary\3.jpg"></div>
-					<div class="hidden"><img src="gallary\4.jpg"></div>
-					<div class="hidden"><img src="gallary\5.jpg"></div>
-				</div>
-				<a href="#" class="arrowR"><img src="images\r_arrow0.png" onmouseover="this.src='images/r_arrow1.png'" onmouseout="this.src='images/r_arrow0.png'"></a>
-			</div>
-		</div>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-		<script src="js\slideshow.js"></script>
-		
-		<div style="border:1px solid black;height:650px;width:100%;background-image:url(images/bg5.jpg);background-repeat:no-repeat;background-size:100% 100%;">
-			<div style="width:430px;height:250px;border:2px solid #a30000;margin:30px;">
-				<header style="text-align:center;font-family:Apple Chancery, cursive;height:40px;line-height:40px;margin-top:-20px;background-image:url('images/bg2.jpg');">
-					<h2>Upcoming Events</h2>
-				</header>
-				<marquee id="test1" behavior="scroll" direction="up" height="200" scrolldelay="100" scrollamount="2" onMouseOver="document.all.test1.stop()" onMouseOut="document.all.test1.start()">
-				<ul  style="font-size:20px;width:85%;text-align:justify;">
-					<li>GREENOVATION Coming Soon...</li>
-					<li>Energy Quiz 28 dec.</li>
-					<li>Buisness Quiz.</li>
-					<li>Announcement of september winner</li>
-					<li>Award ceremony on 5th Jan 2017</li>
-					<li>Problem and Statement competition</li>
-					<li>Winner Award ceremony of SEEQ on 25th Jan</li>
-				</ul>
-				</marquee>
-			</div>
-			
-			<div style="width:430px;height:300px;border:2px solid #a30000;margin:30px;">
-				<header style="background-image:url('images/bg2.jpg');text-align:center;height:40px;width:100%;line-height:40px;margin-top:-20px;">
-					<h2 style="color:black;font-family:Apple Chancery, cursive;">Intresting Facts</h2>
-				</header>
-				<marquee id="test2" behavior="scroll" direction="up" height="250" scrolldelay="100" scrollamount="2" onMouseOver="document.all.test2.stop()" onMouseOut="document.all.test2.start()">
-					<ul  style="font-size:20px;width:85%;text-align:justify;">
-						<li>Bhutan is one of the few countries to have negative carbon emissons</li>
-						<li>San Francisco Becomes The first City to Ban the sale of Plastic bottles to reduce the huge amount of waste from the billion-dollar plastic bottle industry</li>
-						<li>Delhi Metro becomes the first Railway project in the world to be registered by the United Nations under the Clean Development Mechanism</li>
-						<li>World's largest solar plant (capacity of 750 MW) has been commissioned to be installed in Rewa district of M.P,India</li>
-						<li>In year 2015, The Stockholm Water Prize, commonly known as "the Nobel Prize for water" has been given to an Indian campaigner,Rajendra Singh (dubbed as Water Man of India) who has brought water to 1,000 villages.</li>
-						<li>Uttar Pradesh has made the Guinness World Record by planting 50 million saplings in just 24 hours</li>
-						<li>The largest wind turbine in the world, located in Hawaii, stands 20 storeys tall and has blades the length of a football pitch.</li>
-						<li>World’s total resource base for geothermal energy is larger than the resource base for coal,oil,gas and uranium combined</li>
-						<li>An average wind speed of just 14mph is needed to convert wind energy into electricity,that shouldn't be too hard to come by most countries</li>
-						<li>In the average home, 75% of the electricity used to power home electronics is consumed while the products are turned off</li>
-						<li>About half of worldwide production of solar panels is consumed by Japan. Their purpose is mostly for grid connected residential applications</li>
-						<li>Nuclear waste still contains 95% of its energy</li>
-						<li>Every time you open the refrigerator door, up to 30 percent of the cold air can escape</li>
-						<li>A crack as small as 1/16th of an inch around a window frame can let in as much cold air as leaving the window open three inches!</li>
-						<li>Google uses enough energy to continuously power 200,000 homes</li>
-						<li>One Google search is equal to turning on a 60W light bulb for 17 seconds</li>
-						<li>YouTube can stream for three days on the energy it takes to make a DVD</li>
-					</ul>
-				</marquee>
-			</div>
-			
-			<div style="width:430px;height:584px;border:2px solid #a30000;float:right;margin-top:-618px;margin-right:30px;">
-				<header style="background-image:url('images/bg2.jpg');text-align:center;height:40px;width:100%;line-height:40px;margin-top:-20px;">
-					<h2 style="color:black;font-family:Apple Chancery, cursive;">Energy Headlines</h2>
-				</header>
-				<marquee id="test3" behavior="scroll" direction="up" height="535px" scrolldelay="100" scrollamount="2" onMouseOver="document.all.test3.stop()" onMouseOut="document.all.test3.start()">
-					<ul  style="font-size:20px;width:85%;text-align:justify;">
-						<li>Eco-Warrior- Radhakrishnan Nair, a Gujarati businessman has planted around 40 forests, totalling an amount of 6 lakh trees, all by himself in various states of the country.</li>
-						<li>Researchers at the Department Of Chemical Engineering & Material Science, Michigan State University, USA have developed a prototype of transparent solar panels which are not only cost efficient, but also can be put along the standard windows saving much of the setup space.</li>
-						<li>The Amazon rain forests account for 20 percent of the world's fresh water and 10 percent of the world's known species.</li>
-						<li>At least 50 million acres of rainforest are lost every year, totalling an area the size of England, Wales and Scotland combined.</li>
-						<li>The Hebbagodi Lake in Bengaluru has been turned into an artificial island from a garbage dump.</li>
-						<li>World Energy & United Airlines have collectively launched the longest TransAtlantic biofuel flight from San Francisco, USA to Zurich, Switzerland on 13th September, 2018.</li>
-						<li>Researchers at IIT Guwahati’s Centre of Excellence Sustainable Polymers (CoESusPol) have developed biodegradable plastic using home-grown technology.</li>
-					</ul>
-				</marquee>
-			</div>
-		</div>
-		
-		<footer style="background-image:url('images/bg3.png');border:1px solid black;width:100%;height:100px;">
-			<p style="margin-left:10px;">Contact Us:</p>
-			<div style="margin-top:-100px;margin-left:100px;width:23%;height:50px;text-align:center;display:inline-block;">
-				<center><img src="images\fb_icon.png" style="height:20px;width:20px;margin-top:10px;"></center><br>
-				<a target="_blank" style="text-decoration:none;" href="https://www.facebook.com/EC.MNITJaipur/"><p style="margin-top:-15px;color:black;">www.facebook.com/EC.MNITJaipur</p></a>
-			</div>
-			<div style="margin-top:-71px;margin-left:33px;width:15%;height:50px;text-align:center;display:inline-block;">
-				<center><img src="images\gmail_icon.ico" style="height:30px;width:30px;margin-top:6px;"></center><br>
-				<a style="text-decoration:none;" href="mailto:energyclub@mnit.ac.in"><p style="margin-top:-19px;color:black;">energyclub@mnit.ac.in</p></a>
-			</div>
-			<div style="margin-top:-48px;margin-left:35px;width:22%;height:50px;text-align:center;display:inline-block;">
-				<center><img src="images\blog_icon.png" style="height:23px;width:23px;margin-top:10px;"></center><br>
-				<a target="_blank" style="text-decoration:none;" href="http://www.theehblogmnit.blogspot.com/"><p style="margin-top:-15px;color:black;">www.theehblogmnit.blogspot.com</p></a>
-			</div>
-			<div style="margin-top:-71px;margin-left:35px;width:17%;height:50px;text-align:center;display:inline-block;">
-				<center><img src="images\contact.ico" style="height:25px;width:25px;margin-top:11px;"></center><br>
-				<p style="margin-top:-17px;text-decoration:none;" >7733084133 / 774212632</p>
-			</div>
-			<p style="text-align:center;margin-top:10px;">Copyright &copy All Rights Reserved - Energy Club (MNIT JAIPUR)</p>
-		</footer>
-	</body>
+    <div
+      style="
+        border: 1px solid black;
+        height: 650px;
+        width: 100%;
+        background-image: url(images/bg5.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      "
+    >
+      <div
+        style="
+          width: 430px;
+          height: 250px;
+          border: 2px solid #a30000;
+          margin: 30px;
+        "
+      >
+        <header
+          style="
+            text-align: center;
+            font-family: Apple Chancery, cursive;
+            height: 40px;
+            line-height: 40px;
+            margin-top: -20px;
+            background-image: url('images/bg2.jpg');
+          "
+        >
+          <h2>Upcoming Events</h2>
+        </header>
+        <marquee
+          id="test1"
+          behavior="scroll"
+          direction="up"
+          height="200"
+          scrolldelay="100"
+          scrollamount="2"
+          onMouseOver="document.all.test1.stop()"
+          onMouseOut="document.all.test1.start()"
+        >
+          <ul style="font-size: 20px; width: 85%; text-align: justify">
+            <li>GREENOVATION Coming Soon...</li>
+            <li>Energy Quiz 28 dec.</li>
+            <li>Buisness Quiz.</li>
+            <li>Announcement of september winner</li>
+            <li>Award ceremony on 5th Jan 2017</li>
+            <li>Problem and Statement competition</li>
+            <li>Winner Award ceremony of SEEQ on 25th Jan</li>
+          </ul>
+        </marquee>
+      </div>
+
+      <div
+        style="
+          width: 430px;
+          height: 300px;
+          border: 2px solid #a30000;
+          margin: 30px;
+        "
+      >
+        <header
+          style="
+            background-image: url('images/bg2.jpg');
+            text-align: center;
+            height: 40px;
+            width: 100%;
+            line-height: 40px;
+            margin-top: -20px;
+          "
+        >
+          <h2 style="color: black; font-family: Apple Chancery, cursive">
+            Intresting Facts
+          </h2>
+        </header>
+        <marquee
+          id="test2"
+          behavior="scroll"
+          direction="up"
+          height="250"
+          scrolldelay="100"
+          scrollamount="2"
+          onMouseOver="document.all.test2.stop()"
+          onMouseOut="document.all.test2.start()"
+        >
+          <ul style="font-size: 20px; width: 85%; text-align: justify">
+            <li>
+              Bhutan is one of the few countries to have negative carbon
+              emissons
+            </li>
+            <li>
+              San Francisco Becomes The first City to Ban the sale of Plastic
+              bottles to reduce the huge amount of waste from the billion-dollar
+              plastic bottle industry
+            </li>
+            <li>
+              Delhi Metro becomes the first Railway project in the world to be
+              registered by the United Nations under the Clean Development
+              Mechanism
+            </li>
+            <li>
+              World's largest solar plant (capacity of 750 MW) has been
+              commissioned to be installed in Rewa district of M.P,India
+            </li>
+            <li>
+              In year 2015, The Stockholm Water Prize, commonly known as "the
+              Nobel Prize for water" has been given to an Indian
+              campaigner,Rajendra Singh (dubbed as Water Man of India) who has
+              brought water to 1,000 villages.
+            </li>
+            <li>
+              Uttar Pradesh has made the Guinness World Record by planting 50
+              million saplings in just 24 hours
+            </li>
+            <li>
+              The largest wind turbine in the world, located in Hawaii, stands
+              20 storeys tall and has blades the length of a football pitch.
+            </li>
+            <li>
+              World’s total resource base for geothermal energy is larger than
+              the resource base for coal,oil,gas and uranium combined
+            </li>
+            <li>
+              An average wind speed of just 14mph is needed to convert wind
+              energy into electricity,that shouldn't be too hard to come by most
+              countries
+            </li>
+            <li>
+              In the average home, 75% of the electricity used to power home
+              electronics is consumed while the products are turned off
+            </li>
+            <li>
+              About half of worldwide production of solar panels is consumed by
+              Japan. Their purpose is mostly for grid connected residential
+              applications
+            </li>
+            <li>Nuclear waste still contains 95% of its energy</li>
+            <li>
+              Every time you open the refrigerator door, up to 30 percent of the
+              cold air can escape
+            </li>
+            <li>
+              A crack as small as 1/16th of an inch around a window frame can
+              let in as much cold air as leaving the window open three inches!
+            </li>
+            <li>
+              Google uses enough energy to continuously power 200,000 homes
+            </li>
+            <li>
+              One Google search is equal to turning on a 60W light bulb for 17
+              seconds
+            </li>
+            <li>
+              YouTube can stream for three days on the energy it takes to make a
+              DVD
+            </li>
+          </ul>
+        </marquee>
+      </div>
+
+      <div
+        style="
+          width: 430px;
+          height: 584px;
+          border: 2px solid #a30000;
+          float: right;
+          margin-top: -618px;
+          margin-right: 30px;
+        "
+      >
+        <header
+          style="
+            background-image: url('images/bg2.jpg');
+            text-align: center;
+            height: 40px;
+            width: 100%;
+            line-height: 40px;
+            margin-top: -20px;
+          "
+        >
+          <h2 style="color: black; font-family: Apple Chancery, cursive">
+            Energy Headlines
+          </h2>
+        </header>
+        <marquee
+          id="test3"
+          behavior="scroll"
+          direction="up"
+          height="535px"
+          scrolldelay="100"
+          scrollamount="2"
+          onMouseOver="document.all.test3.stop()"
+          onMouseOut="document.all.test3.start()"
+        >
+          <ul style="font-size: 20px; width: 85%; text-align: justify">
+            <li>
+              Eco-Warrior- Radhakrishnan Nair, a Gujarati businessman has
+              planted around 40 forests, totalling an amount of 6 lakh trees,
+              all by himself in various states of the country.
+            </li>
+            <li>
+              Researchers at the Department Of Chemical Engineering & Material
+              Science, Michigan State University, USA have developed a prototype
+              of transparent solar panels which are not only cost efficient, but
+              also can be put along the standard windows saving much of the
+              setup space.
+            </li>
+            <li>
+              The Amazon rain forests account for 20 percent of the world's
+              fresh water and 10 percent of the world's known species.
+            </li>
+            <li>
+              At least 50 million acres of rainforest are lost every year,
+              totalling an area the size of England, Wales and Scotland
+              combined.
+            </li>
+            <li>
+              The Hebbagodi Lake in Bengaluru has been turned into an artificial
+              island from a garbage dump.
+            </li>
+            <li>
+              World Energy & United Airlines have collectively launched the
+              longest TransAtlantic biofuel flight from San Francisco, USA to
+              Zurich, Switzerland on 13th September, 2018.
+            </li>
+            <li>
+              Researchers at IIT Guwahati’s Centre of Excellence Sustainable
+              Polymers (CoESusPol) have developed biodegradable plastic using
+              home-grown technology.
+            </li>
+          </ul>
+        </marquee>
+      </div>
+    </div>
+
+    <footer
+      style="
+        background-image: url('images/bg3.png');
+        border: 1px solid black;
+        width: 100%;
+        height: 100px;
+      "
+    >
+      <p style="margin-left: 10px">Contact Us:</p>
+      <div
+        style="
+          margin-top: -100px;
+          margin-left: 100px;
+          width: 23%;
+          height: 50px;
+          text-align: center;
+          display: inline-block;
+        "
+      >
+        <center>
+          <img
+            src="images\fb_icon.png"
+            style="height: 20px; width: 20px; margin-top: 10px"
+          />
+        </center>
+        <br />
+        <a
+          target="_blank"
+          style="text-decoration: none"
+          href="https://www.facebook.com/EC.MNITJaipur/"
+          ><p style="margin-top: -15px; color: black">
+            www.facebook.com/EC.MNITJaipur
+          </p></a
+        >
+      </div>
+      <div
+        style="
+          margin-top: -71px;
+          margin-left: 33px;
+          width: 15%;
+          height: 50px;
+          text-align: center;
+          display: inline-block;
+        "
+      >
+        <center>
+          <img
+            src="images\gmail_icon.ico"
+            style="height: 30px; width: 30px; margin-top: 6px"
+          />
+        </center>
+        <br />
+        <a style="text-decoration: none" href="mailto:energyclub@mnit.ac.in"
+          ><p style="margin-top: -19px; color: black">
+            energyclub@mnit.ac.in
+          </p></a
+        >
+      </div>
+      <div
+        style="
+          margin-top: -48px;
+          margin-left: 35px;
+          width: 22%;
+          height: 50px;
+          text-align: center;
+          display: inline-block;
+        "
+      >
+        <center>
+          <img
+            src="images\blog_icon.png"
+            style="height: 23px; width: 23px; margin-top: 10px"
+          />
+        </center>
+        <br />
+        <a
+          target="_blank"
+          style="text-decoration: none"
+          href="http://www.theehblogmnit.blogspot.com/"
+          ><p style="margin-top: -15px; color: black">
+            www.theehblogmnit.blogspot.com
+          </p></a
+        >
+      </div>
+      <div
+        style="
+          margin-top: -71px;
+          margin-left: 35px;
+          width: 17%;
+          height: 50px;
+          text-align: center;
+          display: inline-block;
+        "
+      >
+        <center>
+          <img
+            src="images\contact.ico"
+            style="height: 25px; width: 25px; margin-top: 11px"
+          />
+        </center>
+        <br />
+        <p style="margin-top: -17px; text-decoration: none">
+          7733084133 / 774212632
+        </p>
+      </div>
+      <p style="text-align: center; margin-top: 10px">
+        Copyright &copy All Rights Reserved - Energy Club (MNIT JAIPUR)
+      </p>
+    </footer>
+  </body>
 </html>
-
