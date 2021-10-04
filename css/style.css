@@ -7,8 +7,11 @@
 .menu {
 	height: 58px;
 	width: 100%;
+	display: flex;
 }
 .menu li {
+	display: flex;
+	justify-content: space-around;
 	background: -moz-linear-gradient(#292929, #252525);
 	background: -ms-linear-gradient(#292929, #252525);
 	background: -webkit-gradient(
@@ -26,7 +29,7 @@
 
 	border-bottom: 2px solid #181818;
 	border-top: 2px solid #303030;
-	min-width: 168.171px;
+	width: 100%;
 }
 .menu > li {
 	display: block;
@@ -46,6 +49,8 @@
 	padding: 0 20px;
 	text-decoration: none;
 	text-transform: uppercase;
+	display: flex;
+    flex-grow: 1;
 }
 
 /* onhover styles */
@@ -79,6 +84,7 @@
 .submenu {
 	left: 0;
 	max-height: 0;
+	width: 100%;
 	position: absolute;
 	top: 100%;
 	z-index: 2;
